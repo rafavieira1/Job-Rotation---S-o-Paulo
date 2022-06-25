@@ -4,7 +4,7 @@ int main(void) {
   float sp = 67.83643, rj = 36.67866, mg = 29.22988, es = 27.16548, out = 19.84953, total, psp, pmg, pes, prj, pout;
   
   total = (sp + rj + mg + es + out);
-  printf("%f", total);
+  printf("Faturamento total: %f\n", total);
   
   psp = ((sp/total)*100);
   prj = ((rj/total)*100);
@@ -12,10 +12,10 @@ int main(void) {
   pes = ((es/total)*100);
   pout = ((out/total)*100);
   
-  printf("Porcentagem de SP: %.2f\n", psp);
-  printf("Porcentagem do RJ: %.2f\n", prj);
-  printf("Porcentagem de MG: %.2f\n", pmg);
-  printf("Porcentagem do ES: %.2f\n", pes);;
-  printf("Porcentagem de Outros: %.2f\n", pout);
+  printf("Porcentagem de SP: %.2f%\n", psp);
+  printf("Porcentagem do RJ: %.2f%\n", prj);
+  printf("Porcentagem de MG: %.2f%\n", pmg);
+  printf("Porcentagem do ES: %.2f%\n", pes);;
+  printf("Porcentagem de Outros: %.2f%\n", pout);
   return 0;
 }
